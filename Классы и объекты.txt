@@ -1,0 +1,17 @@
+class Cat:
+    name = None
+    age = None
+    isHappy = None
+
+
+OneCat = Cat()
+
+OneCat.name = "Boris"
+OneCat.age = 3
+OneCat.isHappy = True
+
+TwoCat = Cat()
+
+TwoCat.name = "Kriss"
+TwoCat.age = 5
+TwoCat.isHappy = False
