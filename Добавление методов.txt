@@ -1,0 +1,22 @@
+class Cat:
+    name = None
+    age = None
+    isHappy = None
+
+    def set_data(self, name , age, isHappy):
+        self.name = name
+        self.age = age
+        self.isHappy = isHappy
+    def get_data(self):
+        print(self.name, f"age: {self.age}, isHappy: {self.isHappy}")
+
+
+OneCat = Cat()
+
+OneCat.set_data("Борис", 3, True)
+OneCat.get_data()
+
+TwoCat = Cat()
+
+TwoCat.set_data("Kriss", 5, False)
+TwoCat.get_data()
